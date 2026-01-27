@@ -1,3 +1,6 @@
+// A Program to Implement Linear Search on A List of Elements.
+// AIM: Given a list of elements and a key element, search for the key in the list using Linear Search.
+
 #include <stdio.h>
 
 int main() {
