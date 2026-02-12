@@ -4,8 +4,13 @@ int main() {
     int n, i, j, temp;
     int a[50];
 
-    printf("Enter number of elements: ");
+    printf("Enter number of elements (max 50): ");
     scanf("%d", &n);
+
+    if(n <= 0 || n > 50) {
+        printf("Invalid input!\n");
+        return 0;
+    }
 
     printf("Enter elements:\n");
     for(i = 0; i < n; i++) {
@@ -26,5 +31,6 @@ int main() {
     for(i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }
+
     return 0;
 }
