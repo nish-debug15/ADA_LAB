@@ -38,18 +38,5 @@ This repository contains the lab programs & activities for the course Analysis &
 ### Graph Algorithms
 8. **Prim’s Algorithm**  
    - Generate a minimum cost spanning tree using Prim’s algorithm.
-
-9. **Fractional Knapsack (Greedy Algorithm)**  
-   - Implement a greedy algorithm for solving the Fractional Knapsack problem.
-
-10. **Floyd’s Algorithm**  
-    - Find all pairs shortest paths in a graph using Floyd’s algorithm.
-
-11. **Bellman-Ford Algorithm**  
-    - Find the shortest path in a graph using the Bellman-Ford algorithm.
-
-12. **Warshall’s Algorithm**  
-    - Find the transitive closure of a directed graph using Warshall’s algorithm.
-
 ---
 
