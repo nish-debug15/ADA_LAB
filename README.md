@@ -44,29 +44,29 @@ It covers fundamental algorithmic paradigms including searching, sorting, greedy
 
 ---
 
-### Graph Algorithms
+### Greedy Algorithms
 8. **Prim’s Algorithm**
-   - Finds Minimum Spanning Tree (MST) using greedy approach.
+   - Finds Minimum Spanning Tree (MST) using a greedy approach.
    - Time Complexity: O(V²) / O(E log V)
 
-9. **Floyd’s Algorithm (Floyd-Warshall)**
-   - Computes shortest paths between all pairs of vertices.
-   - Time Complexity: O(V³)
-
-10. **Bellman-Ford Algorithm**
-   - Finds shortest path from a source vertex (handles negative weights).
-   - Time Complexity: O(V * E)
-
-11. **Warshall’s Algorithm**
-   - Computes transitive closure of a directed graph.
-   - Time Complexity: O(V³)
+9. **Knapsack Problem**
+   - Maximizes value by selecting items based on capacity (Fractional/Greedy approach).
+   - Time Complexity: O(n log n)
 
 ---
 
-### Greedy Algorithms
-12. **Fractional Knapsack Problem**
-   - Maximizes value with fractional item selection.
-   - Time Complexity: O(n log n)
+### Graph Algorithms
+10. **Floyd’s Algorithm**
+    - Computes shortest paths between all pairs of vertices.
+    - Time Complexity: O(V³)
+
+11. **Bellman-Ford Algorithm**
+    - Finds the shortest path from a source vertex (handles negative weights).
+    - Time Complexity: O(V * E)
+
+12. **Warshall’s Algorithm**
+    - Computes the transitive closure of a directed graph.
+    - Time Complexity: O(V³)
 
 ---
 
