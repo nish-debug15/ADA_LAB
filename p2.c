@@ -22,7 +22,7 @@ int main(){
                 mid = (low+high)/2;
 
                 if (a[mid] == key){
-                        printf("Element found at postion %d\n", mid + 1);
+                        printf("Element found at position %d\n", mid + 1);
                         return 0;
                 }
                 else if(key < a[mid]){
